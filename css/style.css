@@ -1,0 +1,317 @@
+@charset "utf-8";
+/*-------------------------------------------
+  Style | Design by Diego Carmona Bernal
+  Last Updated: April 22, 2016. Version: 1.2
+-------------------------------------------*/
+/*-------------------------------------------
+  Inicio | Estructura
+-------------------------------------------*/
+* { margin: 0; padding: 0; line-height: 1.2; }
+
+body.main { font-family: 'Lato', sans-serif; background: #FFFFFF; color: #404040; }
+
+body.secondary { font-family: 'Lato', sans-serif; background: #F7F7F7; color: #404040; }
+
+.wrapper { width: 980px; margin: 0 auto; }
+/*-------------------------------------------
+  Fin | Estructura
+-------------------------------------------*/
+/*-------------------------------------------
+  Inicio | Header
+-------------------------------------------*/
+header .header-top { height: 38px; background: #595959; }
+
+header .header-main { position: relative; background: #FFFFFF; }
+
+header .header-main:after { content: " "; display: block; clear: both; }
+
+header .header-main:before { content: " "; display: block; position: absolute; left: 0; right: 0; top: 0; height: 4px; background: #D4D4D4; }
+
+header .header-main > .container { position: relative; }
+
+header .logo { margin: 0; padding: 40px 0; float: left; }
+
+header .logo img { position: relative; display: inline-block; width: 300px; z-index: 2; }
+
+header .head-info { float: right; margin: 80px 0 0 0; }
+
+header .head-info ul.social-links { list-style: none; }
+
+header .head-info ul.social-links li { float: left; width: 50px; height: 50px; margin-right: 15px; }
+
+header .head-info ul.social-links li .store { display: block; width: 43px; height: 43px; background: #5D829F url(../images/icon-store.png) center no-repeat; background-size: 30px 30px; border-radius: 3em; }
+
+header .head-info ul.social-links li .telephone { display: block; width: 43px; height: 43px; background: #5D829F url(../images/icon-telephone.png) center no-repeat; background-size: 23px 23px; border-radius: 3em; }
+
+header .head-info ul.social-links li a .store:hover { background: #777777 url(../images/icon-store.png) center no-repeat; background-size: 30px 30px; border-radius: 3em; border-radius: 3em; }
+
+header .head-info ul.social-links li a .telephone:hover { background: #777777 url(../images/icon-telephone.png) center no-repeat; background-size: 23px 23px; border-radius: 3em; border-radius: 3em; }
+/*-------------------------------------------
+  Fin | Header
+-------------------------------------------*/
+/*-------------------------------------------
+  Inicio | NAV
+-------------------------------------------*/
+nav.nav-main { border-top: 3px solid #E3E3E3; border-bottom: 3px solid #E3E3E3; }
+
+nav.nav-main { height: 55px; background: #FFFFFF; }
+
+nav.nav-main ul.top-nav-main, nav.nav-main ul.sub-nav-main { list-style: none; }
+
+nav.nav-main ul.top-nav-main li { float: left; margin: 0 0 0 0; text-align: center; }
+
+nav.nav-main ul.top-nav-main li a { display: block; color: #555555; font-size: 1em; font-weight: bold; text-decoration: none; border-left: 1px solid #E3E3E3; }
+
+nav.nav-main ul.top-nav-main li.inicio a { width: 120px; padding: 18px 0; }
+
+nav.nav-main ul.top-nav-main li.quienes-somos a { width: 193px; padding: 18px 0; }
+
+nav.nav-main ul.top-nav-main li.servicios a { width: 155px; padding: 18px 0; }
+
+nav.nav-main ul.top-nav-main li.contacto a { width: 155px; padding: 18px 0; }
+
+nav.nav-main ul.top-nav-main li.last a { border-right: 1px solid #E3E3E3; }
+
+nav.nav-main ul.top-nav-main li.active:after, nav.nav-main li:hover:after { content: " "; display: block; height: 3px; background: #5D829F; }
+
+nav.nav-main ul.top-nav-main li ul.sub-nav-main { display: none; position: absolute; width: 311px; background: #FFFFFF; border-top: 3px solid #E3E3E3; border-left: 1px solid #E3E3E3; border-right: 1px solid #E3E3E3; }
+
+nav.nav-main ul.top-nav-main li ul.sub-nav-main li { float: none; }
+
+nav.nav-main ul.top-nav-main li ul.sub-nav-main li:after { content: " "; display: block; height: 3px; background: #E3E3E3; }
+
+nav.nav-main ul.top-nav-main li ul.sub-nav-main li a { width: 100%; padding: 13px 8px; text-align: left; }
+
+nav.nav-main ul.top-nav-main li:hover ul.sub-nav-main { display: block; z-index: 100; }
+
+nav.nav-main ul.top-nav-main li ul.sub-nav-main li:hover:after { content: " "; display: block; height: 3px; background: #5D829F; }
+/*-------------------------------------------
+  Fin | NAV
+-------------------------------------------*/
+/*-------------------------------------------
+  Inicio | Secciones Home
+-------------------------------------------*/
+section.section-slider-aside { padding: 20px 0 20px 0; background: #F7F7F7; border-bottom: 3px solid #E3E3E3; }
+
+section.section-slider-aside:after { content: " "; display: block; clear: both; }
+
+section.section-slider-aside section.home-slider { float: left; width: 630px; height: 350px; }
+
+section.section-slider-aside aside.aside-tips-store { float: right; }
+
+section.section-slider-aside aside.aside-tips-store div.tips { width: 310px; height: 206px; background: transparent; border-right: 3px solid #E3E3E3; border-left: 3px solid #E3E3E3; } 
+
+section.section-slider-aside aside.aside-tips-store div.tips ul { list-style: none; }
+
+section.section-slider-aside aside.aside-tips-store div.tips li { height: 66px; background: #F2F1F1; border-bottom: 2px solid #E3E3E3; }
+
+section.section-slider-aside aside.aside-tips-store div.tips li.first { border-top: 2px solid #E3E3E3; }
+
+section.section-slider-aside aside.aside-tips-store div.tips ul.list li h1 { padding: 5px 10px 0; font-size: 1em; color: #344152; text-transform: uppercase; }
+
+section.section-slider-aside aside.aside-tips-store div.tips ul.list li p { padding: 1px 10px 0; font-weight: bold; color: #148391; text-align: justify; }
+
+section.section-slider-aside aside.aside-tips-store div.store-online span.button { display: block; border-top: 3px solid #E3E3E3; border-bottom: 3px solid #E3E3E3; }
+
+section.section-slider-aside aside.aside-tips-store div.store-online span.button a span.image { display: block; width: 300px; height: 72px; padding: 7px 8px 5px 8px; background: url(../images/button-store.png) center no-repeat; background-size: 300px 65px; text-indent: -999999px; }
+
+section.section-slider-aside aside.aside-tips-store div.store-online span.button a span.image:hover { background: url(../images/button-store-hover.png) center no-repeat; background-size: 300px 65px; }
+
+section.section-slider-aside aside.aside-tips-store div.store-online { width: 316px; height: 120px; margin: 20px  0 0 0; }
+
+section.section-conozcanos { padding: 20px 0 20px 0; background: #F8F5F6; border-bottom: 3px solid #E3E3E3; }
+
+section.section-conozcanos ul.list { list-style: none; padding-bottom: 20px; border-bottom: 3px solid #E3E3E3; }
+
+section.section-conozcanos ul.list:after { content: ""; display: block; clear: both; }
+
+section.section-conozcanos ul.list li { float: left; }
+
+section.section-conozcanos ul.list li h1 { display: inline-block; width: 450px; margin: 8px 0 8px 0; padding: 0 0 5px 0; border-bottom: 3px solid #E3E3E3; color: #344152; font-size: 1.6em; font-weight: bold; text-transform: uppercase; }
+
+section.section-conozcanos ul.list li p { width: 450px; margin: 0 0 10px 0; color: #344152; font-size: 1.1em; text-align: justify; }
+
+section.section-conozcanos ul.list li span.circle-a { display: block; width: 200px; height:200px; margin: 15px 0 0 53px; background: #1B977C url(../images/icon-people.png) center no-repeat; background-size: 200px 200px; border: 5px solid #227F65; border-radius: 10em; text-indent: -999999px; }
+
+section.section-conozcanos ul.list li span.circle-b { display: block; width: 200px; height:200px; margin: 15px 0 0 57px; background: #1C97A7 url(../images/icon-time-money.png) center no-repeat; background-size: 200px 200px; border: 5px solid #148391; border-radius: 10em; text-indent: -999999px; }
+
+body.secondary > section.section-about-home { background: transparent; }
+
+section.section-about-home { padding: 20px 0 0 0; background: #F7FAF9; }
+
+section.section-about-home div.article-about-home { padding: 0 0 23px 0; border-bottom: 3px solid #E3E3E3; }
+
+section.section-about-home div.article-about-home:after { content: ""; display: block; clear: both; }
+
+section.section-about-home div.article-about-home h1 { display: inline-block; margin: 15px 0 15px 0; padding: 0 0 5px 0; color: #344152; font-size: 1.6em; font-weight: bold; text-transform: uppercase; }
+
+section.section-about-home div.article-about-home span.line { display: block; float: right; width: 710px; height: 3px; margin: 30px 0 0 0; background: #E3E3E3; }
+
+section.section-about-home div.article-about-home div.text p { float: left; width: 600px; margin: 0 0 10px 0; color: #344152; font-size: 1.1em; text-align: justify; }
+
+section.section-about-home div.aside-services  { float: right; }
+
+section.section-about-home div.aside-services ul.list { list-style: none; margin: -225px 0 0 0; }
+
+section.section-about-home div.aside-services ul.list li { width: 330px; margin: 0 0 17.8px 0; padding: 10px 0 10px 8px; background: #1B977C; border-left: 5px solid #227F65; color: #FFFFFF; font-size: .9em; font-weight: bold; text-transform: uppercase; }
+/*-------------------------------------------
+  Fin | Secciones Home
+-------------------------------------------*/
+/*-------------------------------------------
+  Inicio | Secciones
+-------------------------------------------*/
+section.section-quienes-somos { padding: 20px 0 0 0; background: transparent; }
+
+section.section-quienes-somos ul.list { list-style: none; padding-bottom: 20px; border-bottom: 3px solid #E3E3E3; }
+
+section.section-quienes-somos ul.list:after { content: ""; display: block; clear: both; }
+
+section.section-quienes-somos ul.list li.left { float: left; }
+
+section.section-quienes-somos ul.list li.right { float: right; }
+
+section.section-quienes-somos ul.list li h1 { display: inline-block; width: 472px; margin: 8px 0 8px 0; padding: 0 0 5px 0; border-bottom: 3px solid #E3E3E3; color: #344152; font-size: 1.6em; font-weight: bold; text-transform: uppercase; }
+
+section.section-quienes-somos ul.list li p { width: 472px; margin: 0 0 10px 0; color: #344152; font-size: 1.1em; text-align: justify; }
+
+section.section-services { padding: 20px 0 0 0; background: #F7FAF9; }
+
+section.section-services div.article-services { padding: 0 0 23px 0; border-bottom: 3px solid #E3E3E3; }
+
+section.section-services div.article-services:after { content: ""; display: block; clear: both; }
+
+section.section-services div.article-services h1 { display: inline-block; margin: 15px 0 15px 0; padding: 0 0 5px 0; color: #344152; font-size: 1.6em; font-weight: bold; text-transform: uppercase; }
+
+section.section-services div.article-services div.text p { float: left; width: 700px; margin: 0 0 10px 0; color: #344152; font-size: 1.1em; text-align: justify; }
+
+section.section-services span.circle-a { float: right; display: block; width: 225px; height:225px; margin: -180px 0 0 0; background: #1B977C; border: 5px solid #227F65; border-radius: 10em; }
+
+section.section-services span.circle-b { float: right; display: block; width: 225px; height:225px; margin: -213px 0 0 0; background: #1B977C; border: 5px solid #227F65; border-radius: 10em; }
+
+section.section-services span.circle-c { float: right; display: block; width: 225px; height:225px; margin: -232px 0 0 0; background: #1B977C; border: 5px solid #227F65; border-radius: 10em; }
+
+section.section-services span.circle-d { float: right; display: block; width: 225px; height:225px; margin: -201px 0 0 0; background: #1B977C; border: 5px solid #227F65; border-radius: 10em; }
+
+section.section-services span.circle-e { float: right; display: block; width: 225px; height:225px; margin: -200px 0 0 0; background: #1B977C; border: 5px solid #227F65; border-radius: 10em; }
+
+section.section-services span.circle-a img, span.circle-b img, span.circle-c img, span.circle-d img, span.circle-e img {  width: 100%; }
+
+section.section-about { margin: 20px 0 50px 0; } section.section-about:after {content: ""; display: block; clear: both; }
+
+section.section-about h1 { display: inline-block; margin: 15px 0 15px 0; padding: 0 0 5px 0; color: #344152; font-size: 1.6em; font-weight: bold; text-transform: uppercase; }
+
+section.section-about h2 { display: inline-block; margin: 15px 0 0 0; color: #344152; font-size: 1.2em; text-align: center; font-weight: bold; text-transform: uppercase; }
+
+section.section-about span.line { display: block; float: right; width: 750px; height: 3px; margin: 30px 0 0 0; background: #E3E3E3; }
+
+section.section-about div.message { display: block; background: #1B977C; border-left: 4px solid #227F65; border-right: 4px solid #227F65; border-top: 3px solid #227F65; border-bottom: 3px solid #227F65; height: 105px; }
+
+section.section-about div.message h1 { color: #FFFFFF; font-size: 1em; text-align: center; }
+
+section.section-about div.section-form-about { float: left; width: 660px; }
+
+section.section-about div.section-form-about div.first { height: 320px; background: #E6E6E6; }
+
+section.section-about div.section-form-about div.last { height: 238px; margin: 10px 0 0 0; background: #E3E3E3; }
+
+section.section-about div.section-form-about .wrap-input { content: ""; display: block; clear: both; }
+
+section.section-about div.section-form-about .wrap-numero { float: right; }
+
+section.section-about div.section-form-about label { color: #227F65; font-size: 1em; font-weight: bold; text-transform: uppercase; }
+
+section.section-about div.section-form-about div.first .wrap-input label#lseleccione { display: block; float: left; margin: 25px 0 0 15px; }
+
+section.section-about div.section-form-about div.first .wrap-input select#selectmotivo { float: right; width: 290px; height: 35px; margin: 15px 15px 0 0; outline: none; border: 0; color: #AAAAAA; font-size: 1em; font-weight: bold; }
+
+section.section-about div.section-form-about div.first .wrap-input label#lmensaje { display: block; float: left; margin: 15px 0 0 15px; }
+
+section.section-about div.section-form-about div.first .wrap-input textarea#mensaje { float: right; width: 483px; height: 120px; margin: 15px 15px 0 0; padding: 10px 10px 10px 10px; outline: none; border: 0; color: #AAAAAA; font-family: 'Lato', sans-serif; font-size: 1em; font-weight: bold; text-align: justify; resize: none; }
+
+section.section-about div.section-form-about div.first .wrap-input label#lnombre { display: block; float: left; margin: 25px 0 0 15px; }
+
+section.section-about div.section-form-about div.first .wrap-input input#nombre { float: right; width: 270px; height: 35px; margin: 15px 15px 0 0; padding: 0 10px 0  10px; outline: none; border: 0; color: #AAAAAA; font-size: 1em; font-weight: bold; }
+
+section.section-about div.section-form-about div.first .wrap-input label#lapellido { display: block; float: left; margin: 25px 0 0 15px; }
+
+section.section-about div.section-form-about div.first .wrap-input input#apellido { float: right; width: 270px; height: 35px; margin: 15px 15px 0 0; padding: 0 10px 0  10px; outline: none; border: 0; color: #AAAAAA; font-size: 1em; font-weight: bold; }
+
+section.section-about div.section-form-about div.last .wrap-input label#lcorreo { display: block; float: left; margin: 25px 0 0 15px; }
+
+section.section-about div.section-form-about div.last .wrap-input input#correo { float: right; width: 270px; height: 35px; margin: 15px 15px 0 0; padding: 0 10px 0  10px; outline: none; border: 0; color: #AAAAAA; font-size: 1em; font-weight: bold; }
+
+section.section-about div.section-form-about div.last .wrap-input label#ltelefono { display: block; float: left; margin: 25px 0 0 15px; }
+
+section.section-about div.section-form-about div.last .wrap-input .wrap-numero input#telefono { float: left; width: 130px; height: 35px; margin: 15px 15px 0 0; padding: 0 10px 0  10px; outline: none; border: 0; color: #AAAAAA; font-size: 1em; font-weight: bold; }
+
+section.section-about div.section-form-about div.last .wrap-input input#codigo { float: left; width: 105px; height: 35px; margin: 15px 15px 0 0; padding: 0 10px 0  10px; outline: none; border: 0; color: #AAAAAA; font-size: 1em; font-weight: bold; }
+
+section.section-about div.section-form-about div.last .wrap-input label#lentiendo { display: block; float: left; margin: 15px 0 0 15px; }
+
+section.section-about div.section-form-about div.last .wrap-input button#btnenviar { display: block; float: right; width: 100px; height: 45px; margin: 25px 15px 0 0; border: 0; background: #1B977C; color: #FFFFFF; font-size: .8em; font-weight: bold; text-transform: uppercase; }
+
+section.section-about div.aside-about { float: right; width: 300px; }
+
+section.section-about div.aside-about div.info ul { list-style: none; }
+
+section.section-about div.aside-about div.info ul.list-aside-about li { display: block; background: #1B977C; border-left: 4px solid #227F65; border-right: 4px solid #227F65; border-top: 3px solid #227F65; border-bottom: 3px solid #227F65; margin: 0 0 12px 0; }
+
+section.section-about div.aside-about div.info ul.list-aside-about li h2 { display: block; padding: 2px 10px 3px 10px; color: #FFFFFF; font-size: 1em; font-weight: bold; text-align: center; text-transform: uppercase; }
+
+section.section-about div.aside-about div.info ul.list-aside-about li p { display: block; padding: 5px 10px 14.5px 10px; color: #FFFFFF; font-size: .9em; font-weight: bold; text-align: center; text-transform: uppercase; }
+
+section.section-about div.aside-about div.map { margin: 71px 0 0 0; }
+/*-------------------------------------------
+  Fin | Secciones
+-------------------------------------------*/
+/*-------------------------------------------
+  Inicio | Footer
+-------------------------------------------*/
+body.secondary > footer.footer div.top-footer div.section-items { background: #f7f7f7; }
+
+footer.footer div.top-footer div.section-items { background: #f7faf9; padding: 0 0 8px 0; }
+
+footer.footer div.top-footer div.section-items div.items { padding: 40px 0 50px 0; }
+
+footer.footer div.top-footer div.section-items div.items:after { content: ""; display: block; clear: both; }
+
+footer.footer div.top-footer div.section-items div.items ul.list { list-style: none; }
+
+footer.footer div.top-footer div.section-items div.items ul.list > li { float: left; height: 326px; width: 302px; margin: 0 37px 0 0; border-bottom: 3px solid #E3E3E3; }
+
+footer.footer div.top-footer div.section-items div.items ul.list > li.last { margin: 0; }
+
+footer.footer div.top-footer div.section-items div.items ul.list > li h1 { display: block; margin: 5px 0 8px 0; padding: 0 0 5px 0 ; color: #344152; border-bottom: 3px solid #E3E3E3; font-size: 1.4em; font-weight: bold; text-transform: uppercase; text-align: center; }
+
+footer.footer div.top-footer div.section-items div.items ul.list > li ul.nav-acceso-rapido { list-style: none; }
+
+footer.footer div.top-footer div.section-items div.items ul.list > li ul.nav-acceso-rapido li a { display: block; margin: 10px 0 10px 0; padding: 0 0 9px 0; color: #344152; border-bottom: 3px solid #E3E3E3; font-size: 1em; font-weight: bold; text-decoration: none; text-transform: uppercase; text-align: center; }
+
+footer.footer div.top-footer div.section-items div.items ul.list > li ul.nav-acceso-rapido li a:hover { color: #1B977C; }
+
+footer.footer div.top-footer div.section-items div.items ul.list > li ul.nav-acceso-rapido span.circle-decoration { display: block; width: 45px; height: 45px; margin: 34px 120px 0 120px; background: #1B977C; border: 5px solid #227F65; border-radius: 10em; }
+
+footer.footer div.top-footer div.section-items div.items ul.list > li .group { margin: 13px 0 0 0; padding: 15px 10px 15px 10px; background: #1B977C; border: 3px solid #227F65; }
+
+footer.footer div.top-footer div.section-items div.items ul.list > li .group span.icon-work { display: block; width: 105px; height: 105px; margin: 0 85px 0 85px; background: url(../images/icon-work.png) center no-repeat; background-size: 105px 105px; text-indent: -999999px; }
+
+footer.footer div.top-footer div.section-items div.items ul.list > li .group p { padding: 10px 0 0 0; color: #FFFFFF; font-weight: bold; text-transform: uppercase; text-align: center; }
+
+footer.footer div.top-footer div.section-items div.items ul.list > li form.form-contact-home input[type=email] { width: 276px; height: 50px; margin: 5px 0 0 0; padding: 0 10px 0  10px; outline: none; border: 3px solid #E3E3E3; color: #AAAAAA; font-size: 1em; font-weight: bold; }
+
+footer.footer div.top-footer div.section-items div.items ul.list > li form.form-contact-home textarea { width: 276px; height: 120px; margin: -3px 0 0 0; padding: 10px 10px 10px 10px; outline: none; border: 3px solid #E3E3E3; color: #AAAAAA; font-family: 'Lato', sans-serif; font-size: 1em; font-weight: bold; text-align: justify; resize: none; }
+
+footer.footer div.top-footer div.section-items div.items ul.list > li form.form-contact-home button { width: 302px; height: 50px; margin: 4px 0 0 0; background: #1B977C; border: 3px solid #227F65; color: #FFFFFF; font-size: .9em; font-weight: bold; text-transform: uppercase; }
+
+footer.footer .sub-footer { background: #1C97A7; border-top: 4px solid #148391; }
+
+footer.footer .sub-footer:after { content: ""; display: block; clear: both; }
+
+footer.footer .sub-footer span { display: inline-block; margin: 25px 0 0 0; color: #FFFFFF; font-weight: bold; }
+
+footer.footer .sub-footer .logo { margin: 10px 0 10px 0; float: right; }
+
+footer.footer .sub-footer .logo img { position: relative; display: inline-block; width: 250px; z-index: 2; }
+/*-------------------------------------------
+  Fin | Footer
+-------------------------------------------*/
