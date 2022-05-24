@@ -1,4 +1,4 @@
-# pc_ingenieria
+# PC Ingeniería
 
 http://pcingenieria.mysoftup.com/
 
